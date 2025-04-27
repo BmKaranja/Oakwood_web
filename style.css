@@ -121,9 +121,6 @@ footer{
     .d-d{
         padding-left: 14vw;
     }
-    .hide{
-        display: none;
-    }
     .form_1{
         margin-right: 10%;
     }
@@ -163,22 +160,9 @@ div .top img{
     cursor:pointer;
     padding: 30px;
 }
-div video{
-    width: 70%;
-    margin-left: 17%;
-    margin-top: 5%;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(218, 112, 112, 0.2);
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
-    transition: opacity 0.3s ease;
-    opacity: 1;
-    transition: background-color 0.3s ease;
-    background-color: rgba(199, 199, 199, 0.733);
-}
 .img-1{
     margin-top: 0vh;
+    margin-bottom: 0vh;
     width: 100%;
     height: 90vh;
     background-image: url('pexels-teacher-ray-you-get-it-582281052-31258415.jpg');
@@ -231,94 +215,6 @@ div video{
     transform: translateY(0px);
     transition: opacity 0.3s ease;
     padding-bottom: 20px;
-}
-.LW-80{
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vh;
-    padding-top:30% ;
-}
-#bg-1{
-    background: url('OH.jpg');
-    background-size: cover;
-}
-
-#bg-2{
-    background: url('IJ.jpg');
-    background-size: cover;
-}
-.cta-1{
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    border-radius: 15%;
-}
-
-.cta-1:hover{
-    background-color: #444;
-}
-.cta-1 .a{
-    text-decoration: none;
-    color: white;
-}
-#Join{
-    margin-top: 20px;
-    text-decoration: none;
-    font-size: 24px;
-    transition: background-color 0.3s ease;
-    text-align: center;
-    justify-content: center;
-}
-#Join a{
-    color: white;
-    text-decoration: none;
-}
-.SC-buttons{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap:9%;
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: -7px;
-    margin-bottom: -15px;
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
-    transition: opacity 0.3s ease;
-    opacity: 1;
-    transition: background-color 0.3s ease;
-    background-color: rgb(209, 252, 252);
-    text-align: center;
-    font-family:'Roboto' sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-    transition: transform 0.3s ease;
-    transform: translateY(0px);
-    transition: opacity 0.3s ease;
-    padding-bottom: 20px;
-}
-.buttons a{
-    text-decoration: none;
-    color: rgb(110, 110, 214);
-}
-.SC-buttons button{
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    border-radius: 15%;
 }
 .form_1{
     border-radius: 40px;
