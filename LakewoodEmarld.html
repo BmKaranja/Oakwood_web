@@ -1,0 +1,94 @@
+<!--
+image of school
+location+map iframe
+school hours and contact information
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAKEWOOD Emarald</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="th-removebg-preview.png">
+    <style>
+        .body-1{
+            margin-top:-3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .slideshow-container {
+            width: 100%;
+            height: 90vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .navigation {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .nav-button {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>  
+        <!-- HEADER SECTION -->  <!-- Logo and Title -->  <!-- Navigation links -->  <!-- Social media icons --> <!-- Search bar -->  <!-- Login/Signup button-->
+        <div class="top">
+            <img src="th-removebg-preview.png" alt="logo" class="logo">
+            <p id="Sc-name">LAKEWOOD SCHOOLS</p>
+        </div>  
+    <nav>
+        <a href="Homepage.html"class="h2-links">HOME</a>
+        <a href="ABOUT.html"class="h2-links">ABOUT</a>
+        <a href="JOIN.html" class="h2-links">JOIN</a>
+        <a href="#" class="h2-links">SCHOOLS</a>
+        <span class="d-d">
+        <select id="navigation" name="navigation" onchange="window.location.href=this.value;">
+            <option value="">--Select School--</option>
+            <option value="LakewoodKomarock.html">Lakewood Komarock</option>
+            <option value="LakewoodEmarld.html">Lakewood Emarld</option>
+            <option value="LakewoodKitengela.html">Lakewood Kitengela</option>
+        </select>
+        </span>
+    </nav>
+    </header>
+    <footer>
+        <p>MOTTO: HONOURING GOD THROUGH EXCELLENCE</p>
+        <a href="tel:+1234567890"style="padding-right:3%">Call Us</a><br><br>
+        <div class="social-media-icons">
+            <a href="https://www.bing.com/ck/a?!&&p=71852b31c42db1f8988fc7f29c404200da07728b57e0aec280de6a5171e50bb4JmltdHM9MTc0MTA0NjQwMA&ptn=3&ver=2&hsh=4&fclid=23f99e79-9fc4-67f8-0af9-8bfd9e5266b7&psq=lakewood+scholl+facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0xha2V3b29kU2Nob29sc0tlbnlhLw&ntb=1"><img src="icons8-facebook-48.png" alt="facebook"class="social-media"></a>
+            <a href="#"><img src="icons8-youtube-48.png" alt="X"class="social-media"></a>
+            <a href="https://www.bing.com/ck/a?!&&p=5a1c01a4fc5d9ad2415092f2c8c7fce1cd43145436ac5e18a17d874809741ee6JmltdHM9MTc0MTA0NjQwMA&ptn=3&ver=2&hsh=4&fclid=23f99e79-9fc4-67f8-0af9-8bfd9e5266b7&psq=lakewood+school+ig&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9sYWtld29vZHNjaG9vbHNrZW55YS8&ntb=1"><img src="icons8-instagram-48.png" alt="instagram"class="social-media"></a>
+        </div>
+        <p>&copy; 2025 Lakewood Schools. All rights reserved.</p>
+        <a href="PrivacyPolicy.html" class="f-links">Privacy Policy</a>
+        <a href="Terms&Conditions.html" class="f-links">Terms & Conditions</a>
+        <a href="FAQs.html" class="f-links">FAQs</a>
+        </footer>
+</body>
+</html>
