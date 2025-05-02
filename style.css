@@ -15,7 +15,7 @@ body{
     text-decoration: none;
     color: white;
 }
-.img-1 button{
+.container button{
     background-color: #333;
     border: none;
     padding: 10px 20px;
@@ -34,6 +34,7 @@ body{
 .f-links:hover{
     background-color: #333;
     color: white;
+    
 }
 #Sc-name{
     background-color: rgb(209, 252, 252);
@@ -56,6 +57,7 @@ nav{
     background-color: black;
     overflow-y: auto;
     justify-content: space-around;
+    padding-left: 5vw;
 }
 nav a:active{
     text-decoration: none;
@@ -127,6 +129,7 @@ footer{
 }
 .container button:hover{
     background-color: #444;
+    padding: 20px;
     }
 main :hover{
     color: #333;
@@ -168,10 +171,11 @@ div .top img{
     background-image: url('pexels-teacher-ray-you-get-it-582281052-31258415.jpg');
     background-size: cover;
     background-position: center;
-    transition: transform 0.3s ease;
+    transition:width transform 0.5s ease;
     animation: slideDown 3s infinite alternate;
     text-align: center;
 }
+
 
 .img-1 h1{
     transition: opacity 0.3s ease;
