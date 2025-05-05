@@ -129,7 +129,6 @@ footer{
 }
 .container button:hover{
     background-color: #444;
-    padding: 20px;
     }
 main :hover{
     color: #333;
@@ -175,7 +174,6 @@ div .top img{
     animation: slideDown 3s infinite alternate;
     text-align: center;
 }
-
 
 .img-1 h1{
     transition: opacity 0.3s ease;
