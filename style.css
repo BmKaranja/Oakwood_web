@@ -2,14 +2,14 @@ body{
     height: 100vh;
     margin: 0;
     width: 100vw;
-    background-color: rgb(209, 252, 252);
     overflow-x: hidden;
 }
 .top{
     height:100px;
     display:grid ;
-    grid-template-columns: 120px auto;
+    grid-template-columns: 120px 210px auto;
     overflow-y:visible;
+    background-color:black;
 }
 .img-1 a{
     text-decoration: none;
@@ -37,14 +37,14 @@ body{
     
 }
 #Sc-name{
-    background-color: rgb(209, 252, 252);
-    text-align: center;
-    color: #333;
-    font-size: 6vw;
+    background-color:black;
+    text-align: left;
+    font-size: 30px;
     font-weight: bold;
+    color: white;
     margin-top: 0%;
     margin-bottom: 0%;
-    padding-top: 0.5% ;
+    padding-top: 4% ;
     overflow: visible;
     font-family: Arial, sans-serif;
 }
@@ -54,10 +54,14 @@ body{
     width: 120px;
 }
 nav{
-    background-color: black;
+    background-color:black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
     overflow-y: auto;
     justify-content: space-around;
     padding-left: 5vw;
+    padding-top: 1.5%;
 }
 nav a:active{
     text-decoration: none;
@@ -72,8 +76,14 @@ nav a:active{
     border-radius: 5px;
 }
 nav .h2-links{
-    color: white;
-    margin-top: 10px;
+    color:white;
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s, background-color 0.3s;
     height: auto;
     text-decoration: none;
     padding-left: 16%;
@@ -231,4 +241,36 @@ div .top img{
 }
 .in{
     display: inline;
+}
+.school-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    transition: transform 0.3s ease;
+    transform: translateY(0px);
+}
+.school-card{
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family:'Roboto' sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    transform: translateY(0px);
+    transition: opacity 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    color: white;
+}
+.school-card img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
 }
