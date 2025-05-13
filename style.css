@@ -281,9 +281,17 @@ div .top img{
         padding-top: 10vh;
         margin-left: 1%;
     }
-    .school-name{
-        display: none; 
-       }
+  
+    .school-card img{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        image-resolution: from-image;
+        object-fit: cover;
+        height: fit-content;
+        z-index: 1;
+    }
 } /* <-- This closes the @media screen and (max-width: 600px) block */
 
 .school-card{
