@@ -147,6 +147,11 @@ footer{
     .school-card{
         width: 20vh;
     }
+    .back{
+        display: block !important;
+        margin-top: 5vh;
+        margin-left: 10%;
+    }
 }
 .container button:hover{
     background-color: #444;
@@ -262,6 +267,7 @@ div .top img{
     padding-bottom: 20vh;
 }
 
+
 @media screen and (max-width: 600px) {
     .school-container {
         display: block;
@@ -272,13 +278,13 @@ div .top img{
         width: 80vw;
         height: 50vh;
         margin-bottom: 20px;
-        margin-left: 20%;
+        margin-left: 10%;
     }
-}
+} /* <-- This closes the @media screen and (max-width: 600px) block */
+
 .school-card{
     background-color:rgb(20, 20, 20);
     border-radius: 20px;
-    padding: 20px;
     text-align: center;
     font-family:'Roboto' sans-serif;
     font-size: 18px;
@@ -286,16 +292,17 @@ div .top img{
     color: white;
     transition: transform 0.3s ease;
     transform: translateY(0px);
-    width: 40vh;
+    width: 60vh;
     height: 40vh;
     box-shadow: #333 0px 0px 10px;
+    margin-top: 5vh;
 }
 .school-card img{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 60%;
+    bottom: 50%;
     width: 100%;
     image-resolution: from-image;
     object-fit: cover;
@@ -304,11 +311,42 @@ div .top img{
     font-size: 20px;
     font-weight: bold;
     position: relative;
-    top: 70%;
+    top: 80%;
 }
-.school-card:hover{
-    transform: translateY(-5px);
-    transition: border-radius 0.3s ease;
-    border-radius: 5px;
-    padding: 10px;
+.school-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25), 0 1.5px 4px rgba(0,0,0,0.15);
+    border-radius: 24px;
+    background-color: #292929;
+    transition: 
+        transform 0.3s cubic-bezier(.4,2,.6,1),
+        box-shadow 0.3s cubic-bezier(.4,2,.6,1),
+        border-radius 0.3s cubic-bezier(.4,2,.6,1),
+        background-color 0.3s cubic-bezier(.4,2,.6,1);
+    cursor: pointer;
+}
+.back{
+    display: none;
+}
+.info button{
+    display: none;
+}
+
+.school-card:hover {
+    opacity: 0.5;
+}
+
+.school-card:hover .info button {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.7);
 }
