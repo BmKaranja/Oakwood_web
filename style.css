@@ -10,7 +10,7 @@ body{
     display:grid ;
     grid-template-columns: 120px 210px auto;
     overflow-y:visible;
-    background-color:rgb(20, 20, 20);
+    background-color:#2a4d69;
 }
 .img-1 a{
     text-decoration: none;
@@ -38,7 +38,7 @@ body{
     
 }
 #Sc-name{
-    background-color:rgb(20, 20, 20);
+    background-color:#2a4d69;
     text-align: left;
     font-size: 30px;
     font-weight: bold;
@@ -55,7 +55,7 @@ body{
     width: 120px;
 }
 nav{
-    background-color:rgb(20, 20, 20);
+    background-color:#2a4d69;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
@@ -92,7 +92,7 @@ nav .h2-links{
 
 footer{
     text-align: center;
-    background-color:rgb(20, 20, 20);
+    background-color:#2a4d69;
     color:white;
     padding-top: 10px;
     padding-bottom: 10px;
