@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .upper{
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            background: linear-gradient(to top, white, transparent), url('pexels-teacher-ray-you-get-it-582281052-31258415.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            text-align: center;
+        .container{
+            max-width: fit-content;
+        }
+        .overlay{
+            position: absolute;
+            top: 50%!important;
+            left: 50%!important;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <div class="upper">
-        <h1>Prototypes</h1>
-        <p>Prototypes are a way to test and validate ideas before full-scale development. They can be low-fidelity (like sketches or wireframes) or high-fidelity (like interactive models). Prototyping helps in gathering feedback and making necessary adjustments early in the design process.</p>
-        <p>Prototypes can be created using various tools and methods, including paper prototypes, digital mockups, and interactive simulations. The choice of prototyping method depends on the project's goals, the target audience, and the resources available.</p>
-        <p>In the context of web development, prototypes can be used to test user interfaces, navigation flows, and overall user experience. They allow designers and developers to explore different design options and gather user feedback before finalizing the product.</p>
-        <p>Prototyping is an essential step in the design process, as it helps to identify potential issues and improve the overall quality of the final product. By involving users in the prototyping phase, designers can ensure that the end product meets their needs and expectations.</p>
+    <div class="container">
+        <img src="pexels-daveg-11122797.jpg" alt="" style="width: 500px;height: auto;">
+        <div class="overlay">
+            <button class="cta">
+                <a href="about.html">Learn More</a>
+        </div>
     </div>
 </body>
-
-    </html>
+</html>
