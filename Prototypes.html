@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .container{
-            max-width: fit-content;
-        }
-        .overlay{
-            position: absolute;
-            top: 50%!important;
-            left: 50%!important;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    
 </head>
 <body>
-    <div class="container">
-        <img src="pexels-daveg-11122797.jpg" alt="" style="width: 500px;height: auto;">
-        <div class="overlay">
-            <button class="cta">
-                <a href="about.html">Learn More</a>
-        </div>
-    </div>
+<style>
+.img-hover-container {
+    position: relative;
+    display: inline-block;
+}
+.img-hover-container img {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+.img-hover-container button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.img-hover-container:hover button {
+    display: block;
+}
+</style>
+<div class="img-hover-container">
+    <img src="pexels-daveg-11122797.jpg" alt="Sample Image">
+    <button>Click Me</button>
+</div>
 </body>
 </html>
